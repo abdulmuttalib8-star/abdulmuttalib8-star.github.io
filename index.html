@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abdul Muttalib | Portfolio</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#home" class="logo">A M<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#resume" class="nav-link">Resume</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+      <!-- 1. HOME -->
+        <section id="home" class="hero">
+            <div class="container hero-container">
+                <!-- IMAGE WALA HISSA AB UPAR HAI (Left Side Ke Liye) -->
+                <div class="hero-image reveal">
+                    <img src="mypic.png" alt="Abdul Muttalib" class="profile-img" onerror="this.src='https://via.placeholder.com/400x400?text=Profile+Photo'">
+                </div>
+                
+                <!-- TEXT WALA HISSA AB NICHE HAI (Right Side Ke Liye) -->
+                <div class="hero-content reveal">
+                    <p class="subtitle">Hello, I'm</p>
+                    <h1 class="title">Abdul Muttalib</h1>
+                    <h2 class="professional-title">BCA Student | Aspiring Software Engineer | Future Full-Stack Developer</h2>
+                    <p class="short-intro">Passionate BCA student with a strong interest in programming, software development, and modern web technologies. Currently building a solid foundation in computer applications while continuously improving technical knowledge through academic learning and practical projects. Dedicated to becoming a skilled Software Engineer by developing efficient, user-friendly, and reliable software solutions.</p>
+                    <div class="hero-cta">
+                        <a href="#contact" class="btn btn-primary">Contact Me</a>
+                        <a href="#projects" class="btn btn-outline">Explore My Work</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ABOUT ME -->
+        <section id="about" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">About Me</h2>
+                <div class="about-grid">
+                    <div class="about-card">
+                        <h3>Introduction</h3>
+                        <p>Hello! I'm Abdul Muttalib, currently pursuing a Bachelor of Computer Applications (BCA). I am passionate about programming, software development, and continuously learning new technologies. I enjoy understanding how software works, improving my technical skills, and building projects that strengthen my practical knowledge.</p>
+                        <p>As a student, I believe that consistency, curiosity, and continuous learning are essential for long-term growth in the technology field. Every concept I learn and every project I complete helps me move one step closer to achieving my career goal.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>My Journey</h3>
+                        <p>My interest in technology inspired me to pursue a Bachelor of Computer Applications, where I am building a strong foundation in programming and computer science. Since beginning my BCA journey, I have focused on learning programming languages, understanding software development fundamentals, and improving my problem-solving skills through regular practice.</p>
+                        <p>Alongside my academic studies, I enjoy exploring new technologies and creating practical projects that help me apply what I learn. I believe that combining theory with hands-on experience is one of the best ways to grow as a future software engineer.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Why I Chose BCA</h3>
+                        <p>I chose the Bachelor of Computer Applications because it provides a comprehensive foundation in programming, software development, databases, and computer science concepts. It gives me the opportunity to develop both theoretical knowledge and practical skills that are essential for a career in the software industry.</p>
+                        <p>Through this program, I aim to continuously improve my technical abilities, gain practical development experience, and prepare myself for the challenges of professional software engineering.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Technology Interests</h3>
+                        <ul class="list-items">
+                            <li>Software Engineering</li>
+                            <li>Web Development</li>
+                            <li>Programming</li>
+                            <li>Database Management Systems</li>
+                            <li>Artificial Intelligence Fundamentals</li>
+                            <li>Version Control Systems</li>
+                            <li>Modern Development Tools</li>
+                            <li>Emerging Technologies</li>
+                        </ul>
+                    </div>
+                    <div class="about-card">
+                        <h3>Career Goal</h3>
+                        <p>My long-term goal is to become a Software Engineer who builds reliable, scalable, and user-focused applications. I aim to continuously improve my programming skills, gain practical development experience, and contribute to meaningful software solutions that solve real-world problems.</p>
+                    </div>
+                    <div class="about-card">
+                        <h3>Learning Philosophy</h3>
+                        <p>I believe that learning is a continuous journey rather than a destination. Every new concept, project, and challenge provides an opportunity to improve both technical knowledge and problem-solving abilities.</p>
+                        <p>Instead of focusing only on completing tasks, I strive to understand concepts deeply, practice them consistently, and apply them through real projects. I believe that patience, consistency, and practical experience are the foundations of becoming a successful software engineer.</p>
+                    </div>
+                    <div class="about-card full-width">
+                        <h3>Personal Qualities</h3>
+                        <div class="tags-container">
+                            <span class="tag">Curious Learner</span> <span class="tag">Self-Motivated</span> <span class="tag">Disciplined</span> <span class="tag">Consistent</span> <span class="tag">Responsible</span> <span class="tag">Adaptable</span> <span class="tag">Detail-Oriented</span> <span class="tag">Growth-Oriented</span> <span class="tag">Positive Thinker</span> <span class="tag">Continuous Learner</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. EDUCATION -->
+        <section id="education" class="section bg-light">
+            <div class="container reveal">
+                <h2 class="section-title">Education</h2>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>Bachelor of Computer Applications (BCA)</h3>
+                            <p class="institution">Islamia Degree College, Deoband (Affiliated: Maa Shakumbhari University, Saharanpur)</p>
+                            <p class="duration">2025 – 2028 | <strong>Currently Pursuing</strong></p>
+                            <p><strong>Academic Focus:</strong> Programming Fundamentals, CS Fundamentals, Object-Oriented Programming, Web Development, Database Management Systems, Software Engineering Fundamentals, Problem Solving, Practical Application Development.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>Senior Secondary Education (Class 12)</h3>
+                            <p class="institution">Unique Inter College, Khampur</p>
+                            <p class="status"><strong>Completed</strong></p>
+                            <p><strong>Achievement:</strong> Recipient of the Mr. Farewell Award (Session 2024–25) in recognition of active participation, confidence, positive personality, and memorable contribution during the farewell ceremony.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content card">
+                            <h3>Secondary Education (Class 10)</h3>
+                            <p class="institution">Unique Inter College, Khampur</p>
+                            <p class="status"><strong>Completed</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 4. SKILLS & 5. TECH STACK -->
+        <section id="skills" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">Skills & Tech Stack</h2>
+                <div class="skills-grid">
+                    <div class="card">
+                        <h3>Programming Languages</h3>
+                        <div class="tags-container">
+                            <span class="tag">C</span> <span class="tag">C++</span> <span class="tag">Java</span> <span class="tag">Python</span> <span class="tag">HTML</span> <span class="tag">CSS</span> <span class="tag">JavaScript</span>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <h3>Technical Skills</h3>
+                        <ul class="list-items">
+                            <li>Programming Fundamentals & OOP</li>
+                            <li>Frontend Web Development & UI Design</li>
+                            <li>Responsive Web Design</li>
+                            <li>Basic Database Concepts</li>
+                            <li>Version Control (Git & GitHub)</li>
+                            <li>Problem Solving & Logical Thinking</li>
+                            <li>Code Debugging</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Development & Productivity Tools</h3>
+                        <ul class="list-items">
+                            <li><strong>Dev Tools:</strong> Visual Studio Code, Git, GitHub</li>
+                            <li><strong>Productivity:</strong> MS Word, PowerPoint, Excel</li>
+                            <li><strong>AI Tools:</strong> Gemini</li>
+                        </ul>
+                    </div>
+                    <div class="card">
+                        <h3>Soft Skills</h3>
+                        <div class="tags-container">
+                            <span class="tag">Continuous Learning</span> <span class="tag">Problem Solving</span> <span class="tag">Critical Thinking</span> <span class="tag">Communication</span> <span class="tag">Teamwork</span> <span class="tag">Adaptability</span> <span class="tag">Time Management</span> <span class="tag">Discipline</span>
+                        </div>
+                    </div>
+                    <div class="card full-width bg-primary text-white" style="background-color: var(--primary-color); color: white;">
+                        <h3 style="color: white;">Currently Learning</h3>
+                        <p>C Programming, C++, Java, Python, Frontend Web Development, Responsive Web Design, DBMS, OOP, Git & GitHub Workflow, Software Engineering Fundamentals.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 6. PROJECTS -->
+        <section id="projects" class="section bg-light">
+            <div class="container reveal">
+                <h2 class="section-title">Featured Projects</h2>
+                <div class="project-card card">
+                    <div class="project-info">
+                        <h3>AuthFlow – Student Authentication Portal</h3>
+                        <p class="status badge">Status: Completed</p>
+                        <p><strong>Overview:</strong> A frontend web development project created as part of my learning journey. It demonstrates a clean, responsive, and user-friendly authentication interface while strengthening my understanding of modern web development fundamentals.</p>
+                        <p><strong>Description:</strong> Focuses on designing a professional authentication portal with a structured UI, responsive layout, and interactive frontend functionality using HTML, CSS, and JavaScript. Reflects practical learning and strengthens frontend skills.</p>
+                        
+                        <h4>Technologies & Skills Applied</h4>
+                        <div class="tags-container">
+                            <span class="tag">HTML5</span> <span class="tag">CSS3</span> <span class="tag">JavaScript</span> <span class="tag">Flexbox & Grid</span> <span class="tag">DOM Manipulation</span> <span class="tag">Git/GitHub</span>
+                        </div>
+
+                        <h4>Key Features</h4>
+                        <ul class="list-items dual-col">
+                            <li>Responsive & Mobile-Friendly Design</li>
+                            <li>Modern, Clean Layout & UI</li>
+                            <li>Structured Login Form</li>
+                            <li>Client-Side Input Validation</li>
+                            <li>Cross-Browser Compatibility</li>
+                            <li>Well-Organized Code Structure</li>
+                        </ul>
+
+                        <h4>Learning Outcomes</h4>
+                        <ul class="list-items dual-col">
+                            <li>Frontend Development Fundamentals</li>
+                            <li>Clean Code Organization</li>
+                            <li>Problem Solving During Development</li>
+                            <li>Git & GitHub Workflow</li>
+                        </ul>
+
+                        <h4>Future Improvements</h4>
+                        <p>User Registration, Password Reset, Backend Integration, Database Connectivity, User Dashboard, Session Management, Dark Mode Support, Accessibility Improvements.</p>
+                        
+                        <div class="project-links">
+                            <a href="https://github.com/abdulmuttalib8-star/authflow-student-authentication-portal" class="btn btn-outline" target="_blank"><i class="fab fa-github"></i> GitHub Repo</a>
+                            <a href="https://abdulmuttalib8-star.github.io/authflow-student-authentication-portal/" class="btn btn-primary" target="_blank"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="upcoming-projects text-center mt-4">
+                    <p><em>* Upcoming Projects: New projects will be added as I continue my learning journey and gain more practical experience.</em></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- 7, 8, 9, 10. LEARNING & ACHIEVEMENTS & CAREER -->
+        <section id="journey" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">Journey & Goals</h2>
+                <div class="grid-3">
+                    <div class="card">
+                        <h3>Certifications & Learning</h3>
+                        <p><strong>Current:</strong> Focusing on building a strong foundation in programming and software development through BCA coursework and personal projects.</p>
+                        <p><strong>Planned Areas:</strong> Java, Python, Web Dev, DBMS, Cloud Fundamentals, AI Fundamentals.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Learning Timeline</h3>
+                        <p><strong>Current Stage:</strong> Programming fundamentals, web dev, frontend projects, databases, Git.</p>
+                        <p><strong>Next Stage:</strong> Data Structures & Algorithms, Advanced Java, Backend Dev, REST API.</p>
+                        <p><strong>Long-Term:</strong> Full-Stack Dev, Software Architecture, System Design, Cloud Computing.</p>
+                    </div>
+                    <div class="card">
+                        <h3>Achievements</h3>
+                        <p><strong>Current:</strong> Mr. Farewell Award (Session 2024–25) - In recognition of confidence, positive personality, active participation, and memorable presence.</p>
+                        <p><strong>Future:</strong> Technical Certifications, Hackathons, Internships, Open Source Contributions.</p>
+                    </div>
+                </div>
+
+                <div class="career-objective card mt-4">
+                    <h3>Career Objective</h3>
+                    <div class="grid-2">
+                        <div>
+                            <h4>Short-Term Goals</h4>
+                            <ul class="list-items">
+                                <li>Build a strong foundation in CS fundamentals through BCA.</li>
+                                <li>Improve problem-solving and logical thinking.</li>
+                                <li>Develop practical projects.</li>
+                                <li>Learn modern web tech and DBMS/Git.</li>
+                            </ul>
+                        </div>
+                        <div>
+                            <h4>Long-Term Goals</h4>
+                            <p>To become a skilled Software Engineer who develops reliable, efficient, and user-focused software solutions. I aim to continuously expand my technical expertise, adapt to evolving technologies, and contribute to meaningful projects while maintaining a lifelong commitment to learning.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 11. RESUME -->
+        <section id="resume" class="section bg-light text-center">
+            <div class="container reveal">
+                <h2 class="section-title">Resume</h2>
+                <div class="resume-content card">
+                    <p class="lead-text">I am a Bachelor of Computer Applications (BCA) student with a strong interest in software development, programming, and modern technology. I am continuously building my technical knowledge through academic learning, practical projects, and self-directed study.</p>
+                    <p>My objective is to develop a strong foundation in software engineering while preparing myself for future opportunities in the technology industry.</p>
+                    <div class="hero-cta justify-center mt-4">
+                        <a href="abdul-muttalib-resume.pdf" target="_blank" class="btn btn-primary"><i class="fas fa-eye"></i> View Resume</a>
+                        <a href="abdul-muttalib-resume.pdf" download class="btn btn-outline"><i class="fas fa-download"></i> Download Resume</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 12. BLOG -->
+        <section id="blog" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">Blog & Insights</h2>
+                <div class="card text-center">
+                    <h3>Welcome to my blog.</h3>
+                    <p>This section is a collection of my learning experiences, technical knowledge, project development journey, and reflections throughout my BCA program. My goal is to document my progress and share useful insights.</p>
+                    <div class="tags-container justify-center mt-3">
+                        <span class="tag">My BCA Journey</span> <span class="tag">Programming</span> <span class="tag">Web Development</span> <span class="tag">Software Engineering</span> <span class="tag">Database Management</span>
+                    </div>
+                    <div class="mt-4 p-3 bg-light rounded">
+                        <p><em>Articles coming soon as I continue learning and gaining practical experience!</em></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 13. FAQ -->
+        <section id="faq" class="section bg-light">
+            <div class="container reveal">
+                <h2 class="section-title">Frequently Asked Questions</h2>
+                <div class="faq-container">
+                    <div class="faq-item">
+                        <div class="faq-question">What are you currently studying? <i class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer"><p>I am currently pursuing a Bachelor of Computer Applications (BCA).</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Which college do you attend? <i class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer"><p>I am currently studying at Islamia Degree College, Deoband, affiliated with Maa Shakumbhari University, Saharanpur. My expected graduation year is 2028.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Which programming languages are you learning? <i class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer"><p>I am learning C, C++, Java, Python, HTML, CSS, and JavaScript.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Do you build projects? <i class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer"><p>Yes. I actively build practical projects to strengthen my understanding of programming concepts and improve my development skills.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">What is your career goal? <i class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer"><p>My career goal is to become a Software Engineer by continuously improving my technical knowledge, practical skills, and problem-solving abilities. I am preparing for future internships and entry-level opportunities.</p></div>
+                    </div>
+                    <div class="faq-item">
+                        <div class="faq-question">Are you open to learning and collaboration? <i class="fas fa-chevron-down"></i></div>
+                        <div class="faq-answer"><p>Yes. I am always open to learning, sharing knowledge, and connecting with people who are passionate about technology and software development.</p></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 14. CONTACT -->
+        <section id="contact" class="section">
+            <div class="container reveal">
+                <h2 class="section-title">Contact & Connect</h2>
+                <p class="text-center mb-4">I'm always open to connecting with fellow students, developers, educators, and technology enthusiasts. Feel free to get in touch!</p>
+                <div class="contact-grid">
+                    <div class="contact-info card">
+                        <h3>Contact Information</h3>
+                        <div class="info-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <a href="mailto:abdulmuttalibgour008@gmail.com">abdulmuttalibgour008@gmail.com</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/abdulmuttalib8-star" target="_blank">Abdul Muttalib (abdulmuttalib8-star)</a>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/abdulmuttalib8-star" target="_blank">Abdul Muttalib</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form-container card">
+                        <h3>Send a Message</h3>
+                        <form id="contactForm" class="contact-form">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" placeholder="Subject" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Message</label>
+                                <textarea id="message" rows="4" placeholder="Your Message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 15 & 16. SOCIAL PROFILES & FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h3>Abdul Muttalib</h3>
+                    <p class="footer-title">BCA Student | Aspiring Software Engineer | Future Full-Stack Developer</p>
+                    <p class="footer-desc">Passionate about programming, software development, continuous learning, and building practical solutions through technology.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills & Projects</a></li>
+                        <li><a href="#resume">Resume</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Social Profiles</h3>
+                    <div class="social-icons">
+                        <a href="https://github.com/abdulmuttalib8-star" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/abdulmuttalib8-star" target="_blank" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://www.instagram.com/abdul_muttalib.8?igsh=MXRmaWhvdGl2aWpnMQ==" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1JgNoBPy6H/" target="_blank" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://www.snapchat.com/add/abdul_muttalib8?share_id=WFtM_5mKxgg&locale=en-IN" target="_blank" title="Snapchat"><i class="fab fa-snapchat-ghost"></i></a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="academic-status">
+                    <p><strong>Current Academic Status:</strong> Currently pursuing a Bachelor of Computer Applications (BCA) while continuously strengthening my programming knowledge, software development skills, and practical project experience.</p>
+                </div>
+                <p class="footer-note"><em>Built with curiosity, consistency, and a passion for technology.</em></p>
+                <div class="copyright-area">
+                    <p>&copy; <span id="year"></span> Abdul Muttalib. All Rights Reserved.</p>
+                    <a href="#home" class="back-to-top">Back to Top &uarr;</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS Link -->
+    <script src="script.js"></script>
+</body>
+</html>
